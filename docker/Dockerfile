@@ -1,6 +1,6 @@
 FROM scratch
 MAINTAINER The CentOS Project <cloud-ops@centos.org>
-ADD centos-7.2.1511-docker.tar.xz /
+ADD docker/centos-7.2.1511-docker.tar.xz /
 
 LABEL name="CentOS Base Image"
 LABEL vendor="CentOS"
